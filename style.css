@@ -1,0 +1,57 @@
+h1 {
+  font-family: helvetica, arial, sans-serif;
+  text-align: center;
+  color: lightblue;
+}
+li {
+    display: inline;
+    font-family: helvetica, arial, sans-serif;
+    font-weight: bold;
+    float: right;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: lightblue;
+}
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+h3 {
+  font-family: helvetica, arial, sans-serif;
+  text-align: center;
+  color: lightblue;
+}
+span {
+  font-family: helvetica, arial, sans-serif;
+  font-size: 11pt;
+  color: gray;
+}
+.myphoto {
+  border-radius: 50%;
+  vertical-align: bottom;
+}
+body {
+  width: 640px;
+  margin: 0 auto;
+}
+
+.full-img {
+  position: relative;
+  display: block;
+  width: 640px;
+  height: 480px;
+}
+
+.thumb-bar img {
+  display: block;
+  width: 20%;
+  float: left;
+  cursor: pointer;
+}
