@@ -8,6 +8,10 @@ h2{
   text-align: center;
   color: black;
 }
+h4 {
+  font-family: 'Permanent Marker', monospace;
+  text-align: center;
+}
 li {
     display: inline;
     font-family: helvetica, arial, sans-serif;
