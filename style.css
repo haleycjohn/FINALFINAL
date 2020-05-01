@@ -1,10 +1,10 @@
 h1 {
-  font-family: helvetica, arial, sans-serif;
+  font-family: 'Permanent Marker';
   text-align: center;
   color: gray;
 }
 h2{
-  font-family: helvetica, arial, sans-serif;
+  font-family: 'Permanent Marker', monospace;
   text-align: center;
   color: black;
 }
@@ -19,7 +19,7 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: lightblue;
+  background-color: #5B5B5A;
 }
 li a {
   display: block;
@@ -29,7 +29,7 @@ li a {
   text-decoration: none;
 }
 li a:hover {
-  background-color: black;
+  background-color: lightblue;
 }
 h3 {
   font-family: helvetica, arial, sans-serif;
