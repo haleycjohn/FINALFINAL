@@ -20,6 +20,7 @@ ul {
   padding: 0;
   overflow: hidden;
   background-color: #5B5B5A;
+  box-shadow: 1px 2px 6px grey;
 }
 li a {
   display: block;
@@ -42,8 +43,12 @@ span {
   color: gray;
 }
 .myphoto {
-  border-radius: 50%;
-  vertical-align: bottom;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: solid;
+  border-width: thick;
+  border-color: lightblue;
 }
 body {
   width: 640px;
@@ -61,17 +66,15 @@ p {
   font-style: normal;
   border-left-style: solid;
   border-width: thick;
+  border-color: lightblue;
   padding: 14px 16px;
 }
+
 footer {
   font-family: helvetica, arial, sans-serif;
   color: white;
   font-weight: bold;
   background: lightgray;
-  display: block;
-  text-decoration: none;
-  width: 100%;
-  text-decoration: none;
 }
 
 .full-img {
@@ -80,10 +83,17 @@ footer {
   width: 640px;
   height: 480px;
 }
+.preview {
+  padding: 10px 10px;
+  margin: 0 auto;
+  object-position: center;
+  display:inline-block;
+}
 
 .thumb-bar img {
   display: block;
   width: 20%;
   float: left;
   cursor: pointer;
+  display:inline-block;
 }
